@@ -6,7 +6,7 @@ delete, after insert, after update, after delete,  after undelete) {
   if (Trigger.isAfter && Trigger.isInsert) {
    // mycaseHandler.onAfterInsert(Trigger.New);
 }
-  
+    Decimal oo = CaseTriggerHandler.yzw; //Access to variable without instantiate the outer class
   
         }
 

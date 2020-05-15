@@ -18,5 +18,5 @@ public with sharing class CaseTriggerHandler {
     public void onAfterInsert (List<Case> listcases){
      createChildCases(listcases);
     }
-
+    public static Decimal yzw= 8.225;
 }
