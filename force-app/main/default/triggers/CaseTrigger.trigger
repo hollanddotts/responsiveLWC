@@ -1,14 +1,12 @@
+trigger CaseTrigger on Case (before insert, before update, before
+delete, after insert, after update, after delete,  after undelete) { 
+ 
+    CaseTriggerHandler mycaseHandler = new CaseTriggerHandler();
 
-trigger CaseTrigger on Case (after insert) { 
+  if (Trigger.isAfter && Trigger.isInsert) {
+   // mycaseHandler.onAfterInsert(Trigger.New);
+}
   
-    
-    List<Case> casesToInsert = new List<Case>(); 
-
-  /*  for (Case parent: Trigger.new) { 
-        Case child = new Case();
-         child.ParentId = parent.Id; 
-         child.Subject = parent.Subject + ' Child'; 
-         casesToInsert.add(child); } 
-         insert casesToInsert; */
+  
         }
 
