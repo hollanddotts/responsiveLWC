@@ -1,4 +1,4 @@
-import { LightningElement } from 'lwc';
+/* import { LightningElement } from 'lwc';
 import FacebookIcon from '@salesforce/resourceUrl/FacebookIcon';
 import SalesforceIcon from '@salesforce/resourceUrl/SalesforceIcon';
 import YoutubeIcon from '@salesforce/resourceUrl/YoutubeIcon';
@@ -13,4 +13,4 @@ export default class ResponsiveFooter extends LightningElement {
     TwitterIconUrl = TwitterIcon;
 
 
-}
+} */
